@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+.background {
+    background-color: #eeeeee;
+}
+  
+.nav-body {
+    width: 100%;
+    height: 10vh;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.nav-links a {
+    padding: 30px;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    font-family: poppins;
+    font-weight: 600;
+}
+  
+.burger{
+    display: none;
+}
+  
+.contact-btn {
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+    border-radius: 50px;
+    background-color: #262626;
+    color: white;
+    cursor: pointer;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+
+.recipes-section{
+    width: 100%;
+    height: 300vh;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top-container{
+    width: 100%;
+    height: 5%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line{
+    width: 30%;
+    height: 8px;
+    background-color: #EEB82E;
+}
+
+.top-text{
+    font-family: montserrat;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #EEB82E;
+    padding: 60px;
+}
+
+.bottom-container{
+    width: 100%;
+    height: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card{
+    width: 80%;
+    height: 35%;
+    /* margin: 20px; */
+    background-color: #262626;
+    display: flex;
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    width: 81%;
+    height: 36%;
+    animation: 0.3s ease;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+.left-side{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.right-side{
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-wrapper{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid white; */
+
+}
+
+ul{
+    margin: 10px;
+}
+
+li{
+    color: white;
+    font-size: 1.5rem;
+    font-family: roboto;
+}
+
+h3{
+    color: white;
+    font-size: 2rem;
+    font-family: montserrat;
+}
+
+h2{
+    font-size: 3rem;
+    color: #EEB82E;
+    font-family: montserrat;
+}
+
+.serving-time{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.serving-time img{
+    width: 30px;
+    height: 30px;
+}
+
+.serving-time p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: roboto;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+footer p{
+    color: white;
+    padding: 50px;
+    font-size: 1.5rem;
+    font-family: montserrat;
+}
+
+
+@media screen and (max-width: 768px){
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    .nav-links{
+        display: none;
+        z-index: 1;
+        margin-top: 300px;
+        background-color: #262626;
+        display: flex;
+        flex-direction: column;
+        display: none;
+    }
+    
+    .nav-links a{
+        color: white;
+    }
+    
+    .nav-links.active{
+        display: flex;
+    }
+    
+    .burger{
+        display: block;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+    
+    .burger-bar{
+        width: 50px;
+        height: 7px;
+        margin-top: 5px;
+        border-radius: 5px;
+        background-color: #262626;
+    }
+
+    .bottom-container{
+        width: 100%;
+        height: 100%;
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recipes-section{
+        height: 530vh;
+    }
+
+    .top-container{
+        height: 3%;
+    }
+
+    .bottom-container{
+        height: 85%;
+    }
+
+    .card{
+        flex-direction: column;
+    }
+
+    .left-side{
+        width: 100%;
+        height: 40%;
+    }
+    
+    .right-side{
+        width: 100%;
+        height: 60%;
+    }
+
+}

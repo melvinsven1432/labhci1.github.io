@@ -1,0 +1,511 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-color: #eeeeee;
+}
+
+.nav-body {
+  width: 100%;
+  height: 10vh;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links a {
+  padding: 30px;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  font-family: poppins;
+  font-weight: 600;
+}
+
+.burger{
+  display: none;
+}
+
+.contact-btn {
+  padding: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border: none;
+  border-radius: 50px;
+  background-color: #262626;
+  color: white;
+  cursor: pointer;
+  font-family: poppins;
+  font-weight: 500;
+}
+
+.first-content {
+  width: 100%;
+  height: 90vh;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.left-content {
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-wrapper{
+  margin-left: 280px;
+}
+
+.right-content {
+  width: 50%;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: center ;
+}
+
+.circle-pic{
+  width: 600px;
+  height: 600px;
+  background-color: #EEB82E;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text{
+  font-size: 5rem;
+  font-family: montserrat;
+}
+
+.header-desc{
+  font-size: 1.5rem;
+  padding-top: 20px;
+  padding-bottom: 45px;
+  font-family: roboto;
+  font-weight: 500;
+}
+
+.explore-btn{
+  padding: 20px;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: none;
+  background-color: #EEB82E;
+  color: white;
+  cursor: pointer;
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.peanut-butter-img {
+  width: 700px;
+  height: 500px;
+}
+
+.second-content{
+  width: 100%;
+  height: 80vh;
+  /* border: 1px solid black; */
+}
+
+.best-seller-text{
+  display: flex;
+  justify-content: center;
+}
+
+.best-seller-wrapper{
+  text-align: center;
+}
+
+.special-product-h3{
+  font-size: 1.5rem;
+  color: #EEB82E;
+  font-family: montserrat;
+}
+
+.special-product-h1{
+  font-size: 3rem;
+  font-family: montserrat;
+}
+
+.best-seller-products{
+  width: 100%;
+  height: 70vh;
+  background-color: #EEB82E;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.best-seller{
+  width: 400px;
+  height: 450px;
+  background-color: #FCFCFC;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 25px 1px rgba(0, 0, 0, 0.5);
+}
+
+.best-seller-container{
+  display: flex;
+  justify-content: center;
+}
+
+.best-seller-img-1{
+  width: 400px;
+  height: 300px;
+}
+
+.best-seller-img-2{
+  width: 300px;
+  height: 300px;
+}
+
+.best-seller-img-3{
+  width: 380px;
+  height: 300px;
+}
+
+.best-text-container{
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 80%;
+}
+
+.best-text-container h1{
+  font-size: 1.3rem;
+  font-family: montserrat;
+}
+
+.best-text-container p{
+  padding-top: 10px;
+  font-size: 1rem;
+  font-family: poppins;
+  font-weight: 400;
+}
+
+.third-content{
+  width: 100%;
+  height: 70vh;
+  /* background-color: grey; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.best-recipes-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.best-recipes-text h3{
+  font-size: 1.5rem;
+  color: #EEB82E;
+  font-family: montserrat;
+}
+
+.best-recipes-text h1{
+  font-size: 2.5rem;
+  font-family: montserrat;
+}
+
+.best-recipes-images{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.steak-image, .pasta-image{
+  width: 570px;
+  height: 320px;
+  margin: 20px;
+}
+
+.steak-image{
+  background-image: url(home-assets/steak-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.pasta-image{
+  background-image: url(home-assets/pasta-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: flex-end;
+}
+
+.overlay h1{
+  margin: 30px;
+  margin-left: 50px;
+  color: white;
+  font-family: montserrat;
+  font-weight: 500;
+}
+
+footer{
+  width: 100%;
+  height: 15vh;
+  background-color: #262626;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer p{
+  color: white;
+  padding: 50px;
+  font-size: 1.5rem;
+  font-family: montserrat;
+}
+
+@media screen and (max-width: 768px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .nav-links{
+    display: none;
+    z-index: 1;
+    margin-top: 300px;
+    background-color: #262626;
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+
+  .nav-links a{
+    color: white;
+  }
+
+  .nav-links.active{
+    display: flex;
+  }
+
+  .burger{
+    display: block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .burger-bar{
+    width: 50px;
+    height: 7px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #262626;
+  }
+   
+  /* .contact-btn{
+    display: none;
+  } */
+
+  .first-content{
+    width: 100%;
+    height: 90vh;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-wrapper{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .header-text{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 4rem;
+  }
+
+  .header-desc{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+
+  .explore-btn{
+    margin-bottom: 50px;
+  }
+
+  .left-content{
+    width: 100%;
+  }
+
+  .right-content {
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+  }
+  
+  .circle-pic{
+    width: 400px;
+    height: 400px;
+    background-color: #EEB82E;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .peanut-butter-img {
+    width: 500px;
+    height: 400px;
+  }
+
+  .second-content{
+    height: 130vh;
+  }
+
+  .best-seller-products{
+    width: 100%;
+    height: 120vh;
+    background-color: #EEB82E;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: 40px; */
+  }
+
+  .best-seller{
+    width: 300px;
+    height: 400px;
+    background-color: #FCFCFC;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 25px 1px rgba(0, 0, 0, 0.5);;
+  }
+
+  .best-seller-img-1{
+    width: 300px;
+    height: 200px;
+  }
+  
+  .best-seller-img-2{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .best-seller-img-3{
+    width: 280px;
+    height: 200px;
+  }
+  
+  .best-text-container{
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 80%;
+  }
+  
+  .best-text-container h1{
+    font-size: 1.5rem;
+  }
+  
+  .best-text-container p{
+    padding-top: 10px;
+    font-size: 1rem;
+  }
+
+  .third-content{
+    width: 100%;
+    height: 80vh;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .best-recipes-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .best-recipes-text h3{
+    font-size: 1.5rem;
+  }
+  
+  .best-recipes-text h1{
+    font-size: 2.5rem;
+  }
+  
+  .best-recipes-images{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .steak-image, .pasta-image{
+    width: 470px;
+    height: 220px;
+    margin: 20px;
+  }
+  
+  .steak-image{
+    background-image: url(home-assets/steak-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .pasta-image{
+    background-image: url(home-assets/pasta-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: flex-end;
+  }
+  
+  .overlay h1{
+    margin: 30px;
+    margin-left: 50px;
+    color: white;
+  }
+
+}
+
+
+
+
